@@ -199,3 +199,23 @@ Model weights download automatically on first use. The input video and model wei
 - CSV
 - Git and GitHub
 - Git LFS
+
+### Tracking Results and Manual Comparison
+
+The tracking system processed 279 frames and generated 29 unique tracking IDs.
+
+| Measurement            | Count |
+| ---------------------- | ----: |
+| Estimated manual count |    25 |
+| Unique tracking IDs    |    29 |
+| Difference             |     4 |
+
+The difference may be due to temporary detection loss, occlusion, or assigning new IDs to previously detected people.
+
+**Note:** The manual count is an estimate, not a verified count.
+
+### ID Switch ByteTrack and affected its ability to maintain the same tracking IDs.
+
+**Note:** This is a suspected ID-switch location, not a visually confirmed switch. Observation
+
+A possible ID switch was suspected around **frame 183**. Several pedestrians were walking close together and partially overlapping. This may have confused
